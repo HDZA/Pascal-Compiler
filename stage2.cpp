@@ -1,8 +1,4 @@
-// Jerry Bowden, David Cardenas, Aldo Hernandez
-// CS 4301
-// Stage 2 Compiler Project Stage 2
-// December 7, 2014
- 
+
 #include <iostream>
 #include <iomanip>
 #include <fstream>
