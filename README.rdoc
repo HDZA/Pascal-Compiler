@@ -1,0 +1,2 @@
+The use for this compiler should be stage2 *a_text_file* *anoutputfile*.
+
