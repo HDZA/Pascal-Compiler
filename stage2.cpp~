@@ -12,7 +12,24 @@
 using namespace std;
        
        
-
+/*********************ENUM DATA TYPES GO HERE****************/
+enum storeType { INTEGER, BOOLEAN, PROG_NAME, UNKNOWN };
+enum allocation { YES, NO };
+enum modes { VARIABLE, CONSTANT };
+/*********************ENUM DATA TYPES SECTION ENDS***********/
+       
+       
+/********************STRUCT DEFINING GOES HERE***************/
+struct entry{ //define symbol table entry format{
+    string internalName;
+    string externalName;
+    storeType dataType;
+    modes mode;
+    string value;
+    allocation alloc;
+    int units;
+};
+/********************STRUCT DEFINING SECTION ENDS***************/
        
        
 /********************GLOBAL VARIABLES GO HERE****************/
